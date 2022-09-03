@@ -36,6 +36,7 @@ const Login = (props) => {
     isValid: undefined,
   });
 
+  /// Destructuring and alias assignment
   const { isValid: emailIsValid } = emailState;
   const { isValid: passwordIsValid } = passwordState;
 
